@@ -39,6 +39,9 @@ var adList = {
             dida: {
                 fid: 48,
                 select: '悉尼'
+            },
+            todaySydneyUp: {
+
             }
         }
     },
@@ -63,6 +66,9 @@ var adList = {
             didaUp: {
                 fid: 182,
                 select: '悉尼'
+            },
+            todaySydneyUp: {
+
             }
         }
     }

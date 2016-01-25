@@ -398,5 +398,20 @@ var siteList = {
 
             };
         }
+    },
+    todaySydneyUp: {
+        url: 'http://www.sydneytoday.com/my-posts',
+        init: 'up',
+        ctrl: function(adId, siteId) {
+            var ad = adList[adId];
+            var config = ad.sites[siteId];
+            this.up = () => {
+                return new Promise(
+                    (resolve) => {
+                        resolve(false);
+                        $('a:contains("悉尼北区转让2000年Ford Laser Rego至明年1月")').parent().parent().find('a:contains("顶上首页")')[0].click();
+                    });
+            };
+        }
     }
 };
