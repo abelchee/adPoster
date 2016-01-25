@@ -12,6 +12,7 @@
         "scripts": [
             "scripts/chromereload.js",
             "scripts/adList.js",
+            "scripts/siteList.js",
             "scripts/background.js"
         ]
     },
@@ -50,6 +51,7 @@
         "js": [
             "bower_components/jquery/dist/jquery.js",
             "scripts/adList.js",
+            "scripts/siteList.js",
             "scripts/contentscript.js"
         ],
         "run_at": "document_end",

@@ -37,14 +37,14 @@ chrome.extension.onRequest.addListener(
     (request) => {
         Object.keys(adList[request.id].sites).forEach((siteId) => {
             chrome.tabs.create({
-                url: adList[request.id].sites[siteId].url
+                url: siteList[siteId].url
             }, function(tab) {
                 tabs[tab.id] = {
                     tab: tab,
                     id: tab.id,
                     adId: request.id,
                     siteId: siteId,
-                    state: adList[request.id].sites[siteId].init
+                    state: siteList[siteId].init
                 };
             });
         });
