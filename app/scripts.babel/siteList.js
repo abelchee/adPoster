@@ -408,9 +408,22 @@ var siteList = {
             this.up = () => {
                 return new Promise(
                     (resolve) => {
-                        resolve(false);
-                        $('a:contains("悉尼北区转让2000年Ford Laser Rego至明年1月")').parent().parent().find('a:contains("顶上首页")')[0].click();
+                        resolve('end');
+                        window.location.href = 'http://www.sydneytoday.com/my-posts';
                     });
+            };
+            this.end = () => {
+                return new Promise(
+                    (resolve) => {
+                        var href = $('a:contains("' + ad.title + '")').parent().parent().find('a:contains("顶上首页")').attr('href');
+                        var code = href.substring(href.indexOf('(') + 1, href.indexOf(')'));
+                        $.get('http://www.sydneytoday.com/nodesticky/' + code, function(data) {
+                            console.log(data);
+                            resolve(true);
+                        });
+
+                    });
+
             };
         }
     }

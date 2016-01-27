@@ -1,6 +1,6 @@
 'use strict';
 $(() => {
-    console.log($('a:contains("悉尼北区转让2000年Ford Laser Rego至明年1月")').parent().parent().find('a:contains("顶上首页")'));
+    console.log($('a:contains("悉尼北区转让2000年Ford Laser Rego至明年1月")').parent().parent().find('a:contains("顶上首页")').attr('href'));
     chrome.runtime.sendMessage({
         action: 'read'
     }, (response) => {
