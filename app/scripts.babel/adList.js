@@ -33,7 +33,7 @@ var adList = {
         select: 'NSW',
       },
       freeoz: {
-        fid: 7068,
+        fid: 7179,
         select: '悉尼',
       },
       dida: {
