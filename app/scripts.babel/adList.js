@@ -33,7 +33,7 @@ var adList = {
         select: 'NSW',
       },
       freeoz: {
-        fid: 7179,
+        fid: 7060,
         select: '悉尼',
       },
       dida: {
@@ -77,7 +77,7 @@ var adList = {
         select: 'NSW',
       },
       freeoz: {
-        fid: 7179,
+        fid: 7060,
         select: '悉尼',
       },
       dida: {
@@ -124,7 +124,7 @@ var adList = {
         select: 'NSW',
       },
       freeoz: {
-        fid: 7179,
+        fid: 7060,
         select: '悉尼',
       },
       dida: {
@@ -139,9 +139,9 @@ var adList = {
   roomKalangMaster: {
     title: '悉尼北区Killara主卧招租近Chatswood，近火车站，长短租皆可',
     content: `
-现有Killara火车站东边，学区，双砖House内一主卧招租，不与房东同住。房屋坐落在自然保护区，静街。非常安静，环境优美，基本全是落地窗，采光很好。寻爱清洁，[b][color=Red]不吸烟（这个很介意，必要条件）[/color][/b]，容易相处的租客。长租单人320/w，双人370/w，包家具，水电上网。联系方式：0481 081 960 微信或QQ： 34566190 （请注明租房）。
+现有Killara火车站东边，学区，双砖House内一主卧招租，不与房东同住。房屋坐落在自然保护区，静街。非常安静，环境优美，基本全是落地窗，采光很好。寻爱清洁，[b][color=Red]不吸烟（这个很介意，必要条件）[/color][/b]，容易相处的租客。长租单人350/w，双人400/w，包家具，水电上网。联系方式：0481 081 960 微信或QQ： 34566190 （请注明租房）。
 
-入住时间： 7月4号以后
+入住时间： 12月23号
 
 [b]关于房间：[/b]
 
@@ -167,14 +167,9 @@ var adList = {
         select: 'NSW',
       },
       freeoz: {
-        fid: 7179,
+        fid: 7060,
         select: '悉尼',
-      },
-      dida: {
-        fid: 48,
-        select: '悉尼',
-      },
-      todaySydneyUp: {},
+      }
     },
   },
   roomKalangStudio: {
@@ -204,7 +199,7 @@ var adList = {
         select: 'NSW',
       },
       freeoz: {
-        fid: 7179,
+        fid: 7060,
         select: '悉尼',
       },
       dida: {

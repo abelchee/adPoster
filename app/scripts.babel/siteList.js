@@ -180,12 +180,12 @@ var siteList = {
       this.enterNew = () => {
         return new Promise(
           (resolve) => {
-            $('#subject').val(ad.title);
-            $('#typeid_ctrl')[0].click();
-            $('#typeid_ctrl_menu>ul>li:contains("' + config.select + '")')[0].click();
-            $('#e_textarea').val(ad.content);
-            $('#e_image')[0].click();
-            resolve('end');
+            setTimeout(()=>{
+              $('#subject').val(ad.title);
+              $('#e_textarea').val(ad.content);
+              $('#e_image')[0].click();
+              resolve('end');
+            },2000);
           });
       };
       this.end = () => {
